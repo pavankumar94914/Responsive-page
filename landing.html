@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Sign In</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            display: inline-block;
+        }
+
+        .nav {
+            float: right;
+        }
+
+        .nav a {
+            display: inline-block;
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            margin-top: 0;
+        }
+
+        .section p {
+            line-height: 1.6;
+        }
+
+        .cta {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta:hover {
+            opacity: 0.8;
+        }
+
+        .sign-in {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .sign-in h2 {
+            margin-top: 0;
+        }
+
+        .sign-in form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .sign-in input {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .sign-in button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .sign-in button:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .footer-links a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>HobbyCue</h1>
+            </div>
+            <nav class="nav">
+                <a href="#">About</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#" class="cta">Sign In</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2>Explore your hobby or passion</h2>
+            <p>Connect with other enthusiasts, manage your equipment, track your progress, and discover new resources. Build a thriving community around your passion and share your knowledge with the world.</p>
+            <p>Hobbyist is making it easy for anyone to take their hobby to the next level. Join us today!</p>
+            <a href="#" class="cta">Get Started</a>
+        </div>
+    </section>
+
+    <section class="sign-in">
+        <div class="container">
+            <h2>Sign In</h2>
+            <form>
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" onclick="location.href='index.html'">Sign In</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>What we offer</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>People</h3>
+                    <p>We connect you with like-minded individuals, helping you build a supportive community. You can share your experiences, collaborate on projects, and engage in meaningful conversations with fellow hobbyists.</p>
+                    <a href="#" class="cta">Learn More</a>
+                </div>
+                <div class="feature">
+                    <h3>Places</h3>
+                    <p>Discover amazing spots and locations related to your hobby. We provide curated lists of workshops, studios, parks, and other places perfect for your activities. Find the perfect place to practice, meet up with others, or simply enjoy your passion.</p>
+                    <a href="#" class="cta">Learn More</a>
+                </div>
+                <div class="feature">
+                    <h3>Products</h3>
+                    <p>The biggest platform for hobby-related goods. Find everything you need for your hobbies, from tools and materials to books and equipment. With a wide selection of products and competitive prices, we have you covered for all your hobby needs.</p>
+                    <a href="#" class="cta">Learn More</a>
+                </div>
+                <div class="feature">
+                    <h3>Programs</h3>
+                    <p>Join online or in-person workshops, classes, and tutorials designed to elevate your skills and knowledge. Learn from experts, explore new techniques, and push your creativity to new heights with our curated selection of programs.</p>
+                    <a href="#" class="cta">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Add your name</h2>
+            <p>Join a community of passionate individuals who share your love for <span class="hobby">Your Hobby</span>. Sign up today and get started on a journey of discovery, collaboration, and endless possibilities!</p>
+            <a href="#" class="cta">Join Now</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Hobbyist has transformed the way I engage with my passions. It's a haven for like-minded people, filled with opportunities to learn, grow, and share my love for <span class="hobby">My Hobby</span>. The community is incredibly supportive, and the resources are top-notch. I highly recommend Hobbyist to anyone looking to connect with others and elevate their hobby to the next level."</p>
+                <div class="author">
+                    <img src="https://www.kindpng.com/picc/m/78-785456_profile-picture-default-user-icon-png-transparent-png.png" alt="Olivia Thompson">
+                    <p>Olivia Thompson</p>
+                    <p>Satisfied User</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Your Hobby. Your Community.</h2>
+            <a href="#" class="cta">Get Started</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Hobbyist. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
